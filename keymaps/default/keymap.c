@@ -32,8 +32,11 @@ void td_1_finished(tap_dance_state_t *state, void *user_data) {
         case 1:
             tap_code(KC_Q);
             break;
+	case 2:
+	    tap_code(KC_Z);
+	    break;
         default:
-            tap_code(KC_Z);
+            tap_code(KC_1);
             break;
     }
 }
